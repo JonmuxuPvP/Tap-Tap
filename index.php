@@ -27,7 +27,7 @@
 		</main>	
 
 		<footer class="container">
-			<p>Created by Jonmuxu 2023</p>	
+			<p>Created by <span class="author">Jonmuxu</span> 2023</p>	
 		</footer>	
 
 		<script type="module" src="script.js"></script>
