@@ -50,7 +50,11 @@ tapButton.addEventListener("click", (event) => {
 if (logOutButton != null) {
 	logOutButton.addEventListener("click", (event) => {
 		logOut();
-		window.location.href = "index.php";
+
+		// A 100ms timeout ensures that the user is logged out properly
+		setTimeout(() => {
+			window.location.href = "index.php";
+		}, 100);
 	});
 }
 
