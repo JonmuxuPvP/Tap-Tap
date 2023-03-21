@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -22,7 +25,7 @@
 					<input id="password">
 				</div>
 
-				<p class="login-result"></p>
+				<p id="login-result" class="login-result"></p>
 
 				<button class="button" id="submit">Submit</button>
 			</form>
@@ -31,5 +34,7 @@
 		<footer class="container">
 			<p>Created by Jonmuxu 2023</p>	
 		</footer>	
+
+		<script type="module" src="./js/form.js"></script>
 	</body>
 </html>

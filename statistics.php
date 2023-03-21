@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header class="container">
-			<p><a href="#">Play the game!</a></p>
+			<p><a href="index.php">Play the game!</a></p>
 		</header>		
 
 		<main class="container">

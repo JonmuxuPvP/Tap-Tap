@@ -1,3 +1,8 @@
+<?php
+	require "php/helper.php";
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,7 +12,9 @@
 	</head>
 	<body>
 		<header class="container">
-			<p>You have an account? Log in <a href="#">here</a></p>
+			<?php
+				echo generateHeader();
+			?>
 		</header>		
 
 		<main class="container">
@@ -22,5 +29,7 @@
 		<footer class="container">
 			<p>Created by Jonmuxu 2023</p>	
 		</footer>	
+
+		<script type="module" src="script.js"></script>
 	</body>
 </html>
