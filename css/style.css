@@ -1,0 +1,146 @@
+@import url("./reset.css");
+
+:root {
+	--primary-color: #1E1E1E; 
+	--secondary-color: #121212;
+	--main-color: #BB86FC;
+
+	--primary-text-color: #DEDEDE;
+	--secondary-text-color: #717171;
+	--error-text-color: #FC8692;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	color: var(--primary-text-color);
+}
+
+header, footer {
+	height: 120px;
+
+	background-color: var(--primary-color);
+
+	font-size: 30px;
+}
+
+footer {
+	margin-top: auto;
+}
+
+a {
+	color: var(--main-color);
+}
+
+a:visited {
+	color: var(--secondary-text-color);
+}
+
+main {
+	height: 100%;	
+	background-color: var(--secondary-color);
+}
+
+form {
+	width: 70%;
+	height: 60%;
+
+	flex-direction: column;	
+	gap: 50px;	
+
+	border-radius: 40px;
+
+	background-color: var(--primary-color);
+}
+
+.login-text {
+	font-size: 5.5em;
+}
+
+.login-result {
+	height: 20px;
+
+	font-size: 2em;
+	color: var(--error-text-color);
+}
+
+.inputs {
+	width: 70%;
+
+	flex-direction: column;
+		
+	font-size: 3.3em;
+	gap: 25px;
+}
+
+.inputs > input {
+	width: 100%;
+	height: 10%;
+
+	font-size: 0.5em;
+	padding: 10px;
+
+	border-radius: 20px;
+}
+
+.statistics {
+	width: 60%;
+	height: 50%;
+	
+	flex-direction: column;
+	gap: 50px;
+
+	font-size: 2em;
+	border-radius: 30px;
+
+	background-color: var(--primary-color);
+}
+
+.information-block {
+	flex-direction: column;
+}
+
+.information-block > h1 {
+	color: var(--secondary-text-color);
+}
+
+.information-block > p {
+	font-size: 4em;
+}
+
+.game {
+	text-align: center;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.title {
+	font-size: 6em;
+}
+
+.points {
+	font-size: 10em;
+}
+
+.button {
+	width: 300px;
+	height: 100px;
+
+	font-size: 40px;
+
+	border-radius: 30px;
+
+	background-color: var(--main-color);
+}
+
+.tip {
+	font-size: 25px;
+	font-style: italic;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
