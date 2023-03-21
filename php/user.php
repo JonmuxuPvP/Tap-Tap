@@ -1,5 +1,8 @@
 <?php
-
+	
+	/**
+	 * Represents a User in a class
+	 **/
 	class User
 	{
 		private $name;
@@ -28,6 +31,15 @@
 			return $this->tapped;
 		}
 
+		/**
+		 * Encodes the properties of the current instance to a readable JSON format.
+		 *
+		 * This is mainly used due to the fact that PHP will send a response to JavaScript,
+		 * which needs to be a parseable JSON that JavaScript can use.
+		 * @see login-user.php
+		 *
+		 * @return JSON - encoded JSON data
+		 **/
 		public function toJSON()
 		{
 			$data = array();	
