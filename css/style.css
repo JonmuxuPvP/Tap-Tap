@@ -25,6 +25,10 @@ header, footer {
 	font-size: 30px;
 }
 
+header {
+	justify-content: space-around !important;
+}
+
 footer {
 	margin-top: auto;
 }
