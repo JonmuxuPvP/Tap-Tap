@@ -47,7 +47,7 @@
 		/**
 		 * Logs a user into the platform given a name and a password
 		 *
-		 * If the log is successful, a user object will be returned, otherwise, nothing is return
+		 * If the log is successful, a user object will be returned, otherwise, nothing is returned.
 		 * Knowing this, it's advised to use isset() to check whether the user was properly logged.
 		 *
 		 * Password encryption/decryption is currently not being used, as this app does not focus on 
