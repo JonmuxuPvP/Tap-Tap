@@ -9,10 +9,11 @@ This app cannot be executed without the use of a server. I personally used Apach
 
 1. Download the code from this main branch
 2. Download XAMPP/LAMPP
-3. Export all the files into your respective "htdocs" directory
+3. Export all the files into your respective `htdocs` directory
 4. Run Apache and MySQL from XAMPP
-5. Navigate to the exported directory through your browser of preference by using "localhost" or "127.0.0.1"
-6. Enjoy tapping :3
+5. Import the database found in `sql-exports/test.sql` in localhost/phpmyadmin
+6. Navigate to the exported directory through your browser of preference by using `localhost` or `127.0.0.1`
+7. Enjoy tapping :3
 
 ---
 
